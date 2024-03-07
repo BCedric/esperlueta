@@ -1,0 +1,61 @@
+{
+  "vendredi 8 mars": [
+    {
+      "nom": "Bresièr",
+      "artistes": {
+        "Mathilde Karvaix": "Voix, clarinette",
+        "Cécile Birot Delrue": "Voix, vielle à roue",
+        "Noëllie Nioulou": "Voix, violoncelle"
+      },
+      "description": "Bresièr est l’expression de trois territoires qui se rencontrent: l’Auvergne, le Limousin, le Charollais-Brionnais. Trois voix qui se caractérisent par un travail sur le chant à l’unisson et qui nouent un dialogue indissociable avec la vielle, le violoncelle, les violons et la clarinette. Bresièr forme un trio unique dont les trois personnalités, ancrées et puissantes, nous donne à entendre un répertoire parfois oublié mais aussi renouvelé et composé, mais par dessus-tout, furieusement cadencé.",
+      "image": "comboros - Cécile Delrue Birot.jpg"
+    },
+    {
+      "nom": "Arizonà",
+      "artistes": {
+        "Morgane Darnaud": "Violon et voix",
+        "Maëllis Daubercies Abril": "Accordéon diatonique et voix"
+      },
+      "description": "Un violon, un accordéon, deux voix. Le duo Arizonà s'inspire de mélodies et de chansons du Massif Central pour fabriquer une musique poétique et cadencée. Le français et l'occitan s'y croisent pour filer ensemble un répertoire plein d'énergie, un irrésistible appel à la danse.",
+      "image": "arizona.jpg"
+    },
+    {
+      "nom": "Sollùna",
+      "artistes": {
+        "Inès Morin": "Chant, violon, accordéon",
+        "Maïa Aubert": "Chant, guitares"
+      },
+      "description": "Pour un moment suspendu, Sollùna nous offre un bal aux paysages illimités où les langues de nos ancêtres nous amènent dans un oscillement poétique entre passé et présent, entre tradition et contemporain. Dans la nuit d'une salle et le feu de la scène, Sollùna vous confie ses joies, ses colères et ses plus secrets envoûtements...",
+      "image": "solluna.jpg"
+    }
+  ],
+  "samedi 9 mars": [
+    {
+      "nom": "Camille Jagueneau",
+      "description": "Camille Jagueneau est profondément imprégnée depuis son enfance par l'ambiance des bals et des musiques traditionnelles poitevines. Avec son violon ou à la goule, elle transmet l'énergie, la générosité et une sincérité indéniable dans sa manière de mener le bal. En bal, on peut l'entendre en solo mais également dans le « duo Jagueneau-Roblin », « Oyun Duo », « Oyun Quartet », « Le Bal Variable» et le « Duo Bibonne-Jagueneau». Son violon l'accompagne aussi dans les créations de la « Compagnie du Petit Jour » où leurs spectacles mêlent musique, marionnette et conte.",
+      "image": "HQ_Camille Jagueneau - Camille Jag-min.jpg",
+      "artistes": {
+        "Camille Jagueneau": "Voix et violon"
+      }
+    },
+    {
+      "nom": "Clume",
+      "artistes": {
+        "Jessy Ragey": "Voix et percussions",
+        "Anouck Alarcon": "Voix et percussions",
+        "Lucile Guirimand": "Voix et percussions"
+      },
+      "description": "Voix de rien de tout, de femmes et d'artisanes. Souffles de terre, de chair, de fer. Se cherchent, se tournent, s'engagent, avec vos pieds, et puis nos mains. Clume réécrit et compose des chants en occitan et en français, en s'inspirant du mouvement des mots et des danses trads.",
+      "image": "Clume.jpg"
+    },
+    {
+      "nom": "Bourrasque",
+      "artistes": {
+        "Marthe Tourret": "Violons, voix, pieds",
+        "Elisa Trebouville": "Banjo, fifre, voix"
+      },
+      "description": "Bourrasque est une histoire de relation, musicale et sensible, d’une complémentarité et d’une intensité propres à la forme du duo. Si les deux musiciennes se retrouvent notamment par leur goût des musiques issues de cultures populaires et d'un désir d'appréhender le musical comme témoin d'une manière plus large d’être monde, c’est le faisceau des musiques traditionnelles du Massif Central qui les réunira définitivement. Dès lors, elles creusent ce sillon, fabriquant une musique à laquelle d’autres éléments tels que la langue occitane, le rapport au corps et à la danse, ou encore l’intensité d’affects collectifs contribueront à densifier cette matière. Cette relation dynamique constitue alors un terreau propice à l’expression musicale, projetant devant elle un vaste champ d’expérimentations.",
+      "image": "Bourrasque.jpg"
+    }
+  ]
+}

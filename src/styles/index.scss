@@ -1,0 +1,128 @@
+$primary: #ac1e44;
+$primary-light: #c8224e;
+$primary-light-background: #e37b96;
+$primary-dark: #8d1837;
+$secondary: #65d17c;
+$secondary-light: #82d193;
+
+@import './groupe.scss';
+@import './menu.scss';
+@import './partenaires.scss';
+@import './titles.scss';
+
+html {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  font-family: 'Glacial Indifference', sans-serif;
+  font-size: 1.1em;
+}
+
+@font-face {
+  font-family: hackney;
+  src: url(./font/HackneyPersonalUseOnly.ttf);
+}
+
+.header-esperlueta {
+  font-family: hackney;
+  color: $secondary;
+  font-size: 25.5vw;
+
+  @media screen and (min-width: 950px) {
+    font-size: 14em;
+  }
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+
+  > * {
+    flex: 1;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: $primary;
+  padding: 1em;
+  img {
+    max-height: 200px;
+    max-width: 100%;
+    margin: 1em 2em;
+  }
+}
+
+.content-container {
+  background-color: green;
+  background: url('../Chardon et esperluette.png') no-repeat;
+  background-color: $primary;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+
+  @media (max-width: 1250px) {
+    background-size: 70%;
+  }
+  @media (max-width: 1000px) {
+    background-size: 90%;
+  }
+
+  .content {
+    width: 60%;
+    margin: auto;
+    padding: 2em;
+
+    @media (max-width: 1250px) {
+      width: 80%;
+    }
+    @media (max-width: 1000px) {
+      width: 90%;
+    }
+
+    @media (max-width: 700px) {
+      width: 90%;
+      padding: 1em;
+    }
+    @media (max-width: 375px) {
+      width: 95%;
+      padding: 0;
+    }
+  }
+}
+
+.elements-group {
+  padding: 1em;
+  border-radius: 0.5em;
+  background-color: $primary-light-background;
+  margin: 2em 0;
+  box-shadow: 0px 5px 9px -2px #000000;
+}
+
+.element {
+  opacity: 0;
+  // color: white;
+  transition: all 1s;
+  &.is-visible {
+    transition-delay: 200ms;
+    opacity: 1;
+  }
+}
+
+.centered {
+  text-align: center;
+}
+
+.centre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
