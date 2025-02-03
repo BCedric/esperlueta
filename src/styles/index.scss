@@ -1,10 +1,11 @@
-$primary: #ac1e44;
-$primary-light: #c8224e;
-$primary-light-background: #e37b96;
-$primary-dark: #8d1837;
-$secondary: #65d17c;
-$secondary-light: #82d193;
+$primary: #098022;
+$primary-light: #0b9d2b;
+$primary-light-background: #5a0001;
+$primary-dark: #07621b;
+$secondary: #8c0001;
+$secondary-light: white;
 
+@import './event.scss';
 @import './groupe.scss';
 @import './menu.scss';
 @import './partenaires.scss';
@@ -13,6 +14,7 @@ $secondary-light: #82d193;
 html {
   overflow-x: hidden;
   margin: 0;
+  color: white;
 }
 
 body {
@@ -28,7 +30,7 @@ body {
 
 .header-esperlueta {
   font-family: hackney;
-  color: $secondary;
+  color: black;
   font-size: 25.5vw;
 
   @media screen and (min-width: 950px) {
@@ -62,7 +64,7 @@ header {
 
 .content-container {
   background-color: green;
-  background: url('../Chardon et esperluette.png') no-repeat;
+  background: url('../&-background-chardon.png') no-repeat;
   background-color: $primary;
   background-attachment: fixed;
   background-position: center;
@@ -125,4 +127,14 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+p.informations {
+  text-align: center;
+  font-style: italic;
+}
+
+a {
+  color: white;
+  font-style: italic;
 }

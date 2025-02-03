@@ -1,10 +1,9 @@
 import React from 'react'
-import Groupe from './Groupe'
 
-import groupes from '../../data/groupes.json'
+import progData from '../../data/groupes.json'
 import VisibleComponent from '../../shared/VisibleComponent'
-import Samedi from './Samedi'
-import Vendredi from './Vendredi'
+import Evening from './Evening'
+import Masterclasses from './Masterclasses'
 
 const Programmation = () => {
   return (
@@ -12,28 +11,36 @@ const Programmation = () => {
       <div className="elements-group">
         <h2 id="programmation">Programmation</h2>
         <div className="groupes">
-          {Object.keys(groupes).map((key) => (
+          {progData.map((value) => (
             <VisibleComponent>
-              <div className={`programmation-${key} jour`}>
+              <div className={`programmation-${value.date} jour`}>
                 <h3>
-                  {`${key.charAt(0).toUpperCase() + key.slice(1)}`} - Maison de
-                  l'Oradou
+                  {`${
+                    value.date.charAt(0).toUpperCase() + value.date.slice(1)
+                  }`}{' '}
+                  {value.place != null && '-'} {value.place}{' '}
+                  {value.time != null && '-'} {value.time}
                 </h3>
-                {key.includes('vendredi') ? <Vendredi /> : <Samedi />}
+                {value.description != null && <p className='informations'>{value.description}</p>}
+                {/* {key.includes('vendredi') ? <Vendredi /> : <Samedi />} */}
 
-                <div className="jour-groupes">
-                  {groupes[key].map(
-                    ({ nom, description, artistes, image }, i) => (
-                      <Groupe
-                        key={i}
-                        nom={nom}
-                        description={description}
-                        artistes={artistes}
-                        image={image}
-                      />
-                    )
-                  )}
-                </div>
+                {value.events != null && (
+                  <ul className="events">
+                    {value.events.map((e, index) => (
+                      <li className="event" key={index}>
+                        <span className="event-label">
+                          {e.time}
+                          {e.place != null && ` - ${e.place}`}
+                        </span>
+                        <span>{e.description}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {value.masterclasses != null && (
+                  <Masterclasses masterclasses={value.masterclasses} />
+                )}
+                {value.evening != null && <Evening evening={value.evening} />}
               </div>
             </VisibleComponent>
           ))}

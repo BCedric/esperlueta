@@ -8,7 +8,7 @@ const Contact = () => {
         <h2>Contact</h2>
         <p className="centered">contact@brayauds.fr</p>
         <p className="centered">
-          04 73 63 36 75 (du lundi au vendredi de 10h à 16h)
+          04 73 63 36 75 (du lundi au vendredi de 10h-12h, 14h-16h)
         </p>
       </div>
     </VisibleComponent>

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import esperluet from '../Chardon et esperluette.png'
+import esperluet from '../&-background-chardon.png'
 import MenuItem from './MenuItem'
 
 const MenuMobile = ({ isHeaderVisible, hide }) => {
@@ -19,9 +19,9 @@ const MenuMobile = ({ isHeaderVisible, hide }) => {
     contact: {
       label: 'Contact'
     },
-    partenaires: {
-      label: 'Partenaires'
-    }
+    // partenaires: {
+    //   label: 'Partenaires'
+    // }
   }
 
   const ref = useRef()

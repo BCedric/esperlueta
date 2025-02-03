@@ -14,7 +14,6 @@ const Partenaires = () => {
   return (
     <VisibleComponent>
       <div className="elements-group">
-        <h2 id="partenaires">Partenaires</h2>
         <p></p>
         <div className="imgs-partenaires">
           {images.map((img, index) => (

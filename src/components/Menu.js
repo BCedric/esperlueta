@@ -1,5 +1,5 @@
 import React from 'react'
-import esperluet from '../&-rouge.png'
+import esperluet from '../& (300 x 300 px).png'
 import MenuItem from './MenuItem'
 
 const Menu = ({ isHeaderVisible, hide }) => {
@@ -19,9 +19,9 @@ const Menu = ({ isHeaderVisible, hide }) => {
     contact: {
       label: 'Contact'
     },
-    partenaires: {
-      label: 'Partenaires'
-    }
+    // partenaires: {
+    //   label: 'Partenaires'
+    // }
   }
 
   return (

@@ -1,61 +1,154 @@
-{
-  "vendredi 8 mars": [
-    {
-      "nom": "Bresièr",
-      "artistes": {
-        "Mathilde Karvaix": "Voix, clarinette",
-        "Cécile Birot Delrue": "Voix, vielle à roue",
-        "Noëllie Nioulou": "Voix, violoncelle"
-      },
-      "description": "Bresièr est l’expression de trois territoires qui se rencontrent: l’Auvergne, le Limousin, le Charollais-Brionnais. Trois voix qui se caractérisent par un travail sur le chant à l’unisson et qui nouent un dialogue indissociable avec la vielle, le violoncelle, les violons et la clarinette. Bresièr forme un trio unique dont les trois personnalités, ancrées et puissantes, nous donne à entendre un répertoire parfois oublié mais aussi renouvelé et composé, mais par dessus-tout, furieusement cadencé.",
-      "image": "comboros - Cécile Delrue Birot.jpg"
-    },
-    {
-      "nom": "Arizonà",
-      "artistes": {
-        "Morgane Darnaud": "Violon et voix",
-        "Maëllis Daubercies Abril": "Accordéon diatonique et voix"
-      },
-      "description": "Un violon, un accordéon, deux voix. Le duo Arizonà s'inspire de mélodies et de chansons du Massif Central pour fabriquer une musique poétique et cadencée. Le français et l'occitan s'y croisent pour filer ensemble un répertoire plein d'énergie, un irrésistible appel à la danse.",
-      "image": "arizona.jpg"
-    },
-    {
-      "nom": "Sollùna",
-      "artistes": {
-        "Inès Morin": "Chant, violon, accordéon",
-        "Maïa Aubert": "Chant, guitares"
-      },
-      "description": "Pour un moment suspendu, Sollùna nous offre un bal aux paysages illimités où les langues de nos ancêtres nous amènent dans un oscillement poétique entre passé et présent, entre tradition et contemporain. Dans la nuit d'une salle et le feu de la scène, Sollùna vous confie ses joies, ses colères et ses plus secrets envoûtements...",
-      "image": "solluna.jpg"
+[
+  {
+    "date": "mercredi 19 mars",
+    "evening": {
+      "time": "21h",
+      "place": "La Bamboche",
+      "groups": [
+        {
+          "nom": "L'équipe",
+          "description": "Voici un nouveau projet qui rassemble quatre musicien∙ne∙s rompu∙e∙s à l’exercice du bal trad’, aux horizons divers mais affreusement complémentaires. Attention, l’équipe sort du vestiaire et elle est prête à mouiller le maillot pour envoyer du groove en pleine lucarne !",
+          "image": "equipe.jpg",
+          "artistes": {
+            "Colin Delzant": "violoncelle",
+            "Loïc Etienne": "accordéons diatoniques, pieds",
+            "Sébastien Guerrier": "chant, harmonica",
+            "Élisa Trebouville": "banjo, fifres"
+          }
+        }
+      ]
     }
-  ],
-  "samedi 9 mars": [
-    {
-      "nom": "Camille Jagueneau",
-      "description": "Camille Jagueneau est profondément imprégnée depuis son enfance par l'ambiance des bals et des musiques traditionnelles poitevines. Avec son violon ou à la goule, elle transmet l'énergie, la générosité et une sincérité indéniable dans sa manière de mener le bal. En bal, on peut l'entendre en solo mais également dans le « duo Jagueneau-Roblin », « Oyun Duo », « Oyun Quartet », « Le Bal Variable» et le « Duo Bibonne-Jagueneau». Son violon l'accompagne aussi dans les créations de la « Compagnie du Petit Jour » où leurs spectacles mêlent musique, marionnette et conte.",
-      "image": "HQ_Camille Jagueneau - Camille Jag-min.jpg",
-      "artistes": {
-        "Camille Jagueneau": "Voix et violon"
+  },
+  {
+    "date": "jeudi 20 mars",
+    "events": [
+      {
+        "time": "10h",
+        "place": "LieU'topie",
+        "description": "Atelier cuisine pour cantine solidaire"
+      },
+      {
+        "time": "12h30",
+        "place": "LieU'topie",
+        "description": "Repas solidaire (30 personnes max, sur inscription auprès de Lieutopie)"
+      },
+      {
+        "time": "14h",
+        "place": "LieU'topie",
+        "description": "Conférence avec Philippe Josselin (de l’AFPS) sur l’appropriation culinaire"
+      },
+      {
+        "time": "20h",
+        "place": "Café des ormeaux",
+        "description": "Bœuf musical"
       }
-    },
-    {
-      "nom": "Clume",
-      "artistes": {
-        "Jessy Ragey": "Voix et percussions",
-        "Anouck Alarcon": "Voix et percussions",
-        "Lucile Guirimand": "Voix et percussions"
+    ]
+  },
+  {
+    "place": "UFR Lettres, Culture & Sciences Humaines",
+    "date": "vendredi 21 mars",
+    "events": [
+      {
+        "time": "19h",
+        "description": "Conférence « L’Apartheid comme outil de colonialisme de peuplement » par Anne Tualion présidente AFPS nationale"
       },
-      "description": "Voix de rien de tout, de femmes et d'artisanes. Souffles de terre, de chair, de fer. Se cherchent, se tournent, s'engagent, avec vos pieds, et puis nos mains. Clume réécrit et compose des chants en occitan et en français, en s'inspirant du mouvement des mots et des danses trads.",
-      "image": "Clume.jpg"
-    },
-    {
-      "nom": "Bourrasque",
-      "artistes": {
-        "Marthe Tourret": "Violons, voix, pieds",
-        "Elisa Trebouville": "Banjo, fifre, voix"
+      {
+        "time": "20h",
+        "description": "Apéro partagé / Auberge espagnole"
       },
-      "description": "Bourrasque est une histoire de relation, musicale et sensible, d’une complémentarité et d’une intensité propres à la forme du duo. Si les deux musiciennes se retrouvent notamment par leur goût des musiques issues de cultures populaires et d'un désir d'appréhender le musical comme témoin d'une manière plus large d’être monde, c’est le faisceau des musiques traditionnelles du Massif Central qui les réunira définitivement. Dès lors, elles creusent ce sillon, fabriquant une musique à laquelle d’autres éléments tels que la langue occitane, le rapport au corps et à la danse, ou encore l’intensité d’affects collectifs contribueront à densifier cette matière. Cette relation dynamique constitue alors un terreau propice à l’expression musicale, projetant devant elle un vaste champ d’expérimentations.",
-      "image": "Bourrasque.jpg"
+      {
+        "time": "21h",
+        "description": "Atelier danse de bal"
+      }
+    ],
+    "groups": [
+      {
+        "nom": "L'équipe",
+        "description": "Voici un nouveau projet qui rassemble quatre musicien·ne·s rompu·e·s à l’exercice du bal trad’, aux horizons divers mais affreusement complémentaires. Attention, l’équipe sort du vestiaire et elle est prête à mouiller le maillot pour envoyer du groove en pleine lucarne !",
+        "artistes": {
+          "Colin Delzant": "violoncelle",
+          "Loïc Etienne": "accordéons diatoniques, pieds",
+          "Sébastien Guerrier": "chant, harmonica",
+          "Élisa Trebouville": "banjo, fifres"
+        }
+      }
+    ]
+  },
+  {
+    "date": "samedi 22 mars",
+    "description": "L'entrée est payante à la maison du peuple à partir de 18h",
+    "events": [
+      {
+        "time": "11h",
+        "place": "Marché Saint-Pierre",
+        "description": "Déambulation festive avec la fanfare La Revolta"
+      },
+      {
+        "time": "16h",
+        "place": "Maison du peuple",
+        "description": "Bal pour enfants"
+      },
+      {
+        "time": "18h",
+        "place": "Maison du peuple",
+        "description": "Témoignages et Projection de courts métrage sur la dabke"
+      }
+    ],
+    "masterclasses": [
+      {
+        "title": "Danse palestinienne",
+        "time": "De 14h à 17h",
+        "place": "Maison du peuple",
+        "intervener": "Abeer Hamad",
+        "description": "Apprendre les principaux pas de la dabke (danse folklorique palestinienne)"
+      },
+      {
+        "title": "Musique palestinienne",
+        "time": "De 14h à 17h",
+        "place": "Maison du peuple",
+        "intervener": "Nadhir Bouabid (luthiste-compositeur), Salem Bnouni (violoniste), Elies Ghourabi (percussionniste)",
+        "description": "Ce stage sera l’occasion de présenter et pratiquer les traditions musicales palestiniennes (origines, influences, évolution, lien entre musique et résistance), autour de l'apprentissage de quelques chants et pièces mélodiques simples, à l’oreille. Ouverts à tous les musiciens & musiciennes (y compris percussionnistes) à l’aise sur leur instrument et capables d’apprendre rapidement une mélodie d’oreille."
+      }
+    ],
+    "evening": {
+      "place": "Maison du peuple",
+      "time": "20h30",
+      "groups": [
+        {
+          "nom": "La Vielha",
+          "description": "\"La Vielha\" (la vieille) chante des histoires venues d'hier qui parlent aux oreilles d'aujourd'hui. Une musique à danser menée à la voix, cadencée et chaleureuse, nourrie à la marmite brayaude. Ils sont quatre : trois musiciens pour interpréter les mélodies et les mots sensibles d'une poésie populaire du Massif Central et d'ailleurs, une marionnette brodeuse d'élucubrations pour éclairer le bal d'un regard buissonnier.",
+          "image": "viehla.jpg",
+          "artistes": {
+            "Andrivette": "élucubrations édifiantes",
+            "Clémence Cognet": "violons, chant, pieds",
+            "Lucie Dessiaumes": "chant",
+            "Loïc Etienne": "accordéons diatoniques, pieds"
+          }
+        },
+
+        {
+          "nom": "Alquds",
+          "artistes": {
+            "Nadhir Bouabid": "luth, composition",
+            "Salem Bnouni": "violon",
+            "Elies Ghourabi": "percussion",
+            "Abeer Hamad": "chant"
+          },
+          "description": "Fondé en 2008 à Paris à l’initiative du luthiste-compositeur tunisien Maher Belhaj et de la chanteuse palestinienne Abeer Hamad, puis complété par le virtuose violoniste Salem Bnouni, le percussionniste Elies Ghourabi et le luthiste-compositeur Nadhir Bouabid, ce groupe de recherche musicale autour du folklore palestinien propose des concerts qui parlent de la vie au quotidien, l’amour, la tradition, la résistance et les joies des gens de Palestine. Un répertoire pour faire découvrir un héritage musical riche et si ancien, par la musique qui chante l’amour de la terre natale en liberté.",
+          "image": "alquds.jpg"
+        },
+        {
+          "nom": "Saraï",
+          "artistes": {
+            "Sophie Cavez": "accordéon",
+            "Juliette Minvielle": "chant et percussions",
+            "Baltazar Montanaro": "Violon",
+            "Cyril Pèlegrin": "régie son"
+          },
+          "description": "Saraï. \"Je serai\" en occitan-provençal est un ode à tous les possibles. Le trio invite à la danse au travers de poésies féminines occitanes allant du Moyen-Âge à nos jours. Un savoureux mélange de compositions inspirées par les danses gasconnes, provençales et de bal folk. Après un premier opus concertant, dont l'album est sorti début 2024, le trio continue son travail de collectage et de création avec ce nouveau répertoire dansant.",
+          "image": "sarai.jpg"
+        }
+      ]
     }
-  ]
-}
+  }
+]

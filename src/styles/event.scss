@@ -1,0 +1,25 @@
+.events {
+  list-style-type: none;
+  .event {
+    .event-label {
+      font-weight: bold;
+      &::after {
+        content: ' : ';
+      }
+    }
+  }
+}
+
+.masterclass-title {
+  font-family: Anton;
+  font-size: 1.2em;
+  width: 100%;
+  background-color: #ffffffaa;
+  margin: 0.5em 0;
+  color: $secondary-light;
+}
+
+.masterclass-intervener {
+    font-style: italic;
+    text-align: center;
+}
