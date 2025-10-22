@@ -5,12 +5,14 @@ import Partenaires from './content/Partenaires'
 import Presentation from './content/Presentation'
 import Programmation from './content/Programmation'
 import TarifResa from './content/TarifResa'
+import ProgrammationPending from './content/ProgrammationPending'
 
 const Content = () => {
   return (
     <div className="content">
       <Presentation />
-      <Programmation />
+      {/* <Programmation /> */}
+      <ProgrammationPending />
 
       {/* <InfosPratiques /> */}
       <TarifResa />

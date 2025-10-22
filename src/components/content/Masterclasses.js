@@ -3,16 +3,10 @@ import React from 'react'
 const Masterclasses = ({ masterclasses }) => {
   return (
     <div>
-      <h4>
-        Stages (
-        <a
-          target="_blank"
-          href="https://www.helloasso.com/associations/les-brayauds/evenements/esperlueta-4"
-        >
-          sur réservation
-        </a>
-        {' '})
-      </h4>
+      <h4>Stages</h4>
+      <p className="informations" style={{ fontWeight: 'bold' }}>
+        Rendez-vous sur le lieu du stage
+      </p>
       {masterclasses.map((m, index) => (
         <div key={index}>
           <h4 className="masterclass-title">

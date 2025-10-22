@@ -23,6 +23,10 @@ body {
   font-size: 1.1em;
 }
 
+img {
+  max-width: 100%;
+}
+
 @font-face {
   font-family: hackney;
   src: url(./font/HackneyPersonalUseOnly.ttf);

@@ -2,7 +2,7 @@
   {
     "date": "mercredi 19 mars",
     "evening": {
-      "time": "21h",
+      "time": "20h30 - 22h",
       "place": "La Bamboche",
       "groups": [
         {
@@ -25,7 +25,8 @@
       {
         "time": "10h",
         "place": "LieU'topie",
-        "description": "Atelier cuisine pour cantine solidaire"
+        "description": "Atelier cuisine pour cantine solidaire d'inspiration palestinienne (sur réservation)",
+        "link": "https://forms.gle/eJ85wJqNpsLKbaYt8"
       },
       {
         "time": "12h30",
@@ -38,26 +39,22 @@
         "description": "Conférence avec Philippe Josselin (de l’AFPS) sur l’appropriation culinaire"
       },
       {
-        "time": "20h",
+        "time": "19h",
         "place": "Café des ormeaux",
         "description": "Bœuf musical"
       }
     ]
   },
   {
-    "place": "UFR Lettres, Culture & Sciences Humaines",
+    "place": "Salle Clermont Tango (35 rue Fontgiève)",
     "date": "vendredi 21 mars",
     "events": [
       {
-        "time": "19h",
+        "time": "20h30",
         "description": "Conférence « L’Apartheid comme outil de colonialisme de peuplement » par Anne Tualion présidente AFPS nationale"
       },
       {
-        "time": "20h",
-        "description": "Apéro partagé / Auberge espagnole"
-      },
-      {
-        "time": "21h",
+        "time": "21h30",
         "description": "Atelier danse de bal"
       }
     ],
@@ -92,20 +89,25 @@
         "time": "18h",
         "place": "Maison du peuple",
         "description": "Témoignages et Projection de courts métrage sur la dabke"
+      },
+      {
+        "time": "19h30",
+        "place": "Maison du peuple",
+        "description": "Initiation aux danses de bal"
       }
     ],
     "masterclasses": [
       {
         "title": "Danse palestinienne",
         "time": "De 14h à 17h",
-        "place": "Maison du peuple",
+        "place": "Comédie de Clermont (entrée rue Abbée de l'Epée)",
         "intervener": "Abeer Hamad",
         "description": "Apprendre les principaux pas de la dabke (danse folklorique palestinienne)"
       },
       {
         "title": "Musique palestinienne",
         "time": "De 14h à 17h",
-        "place": "Maison du peuple",
+        "place": "Salle Fontgiève",
         "intervener": "Nadhir Bouabid (luthiste-compositeur), Salem Bnouni (violoniste), Elies Ghourabi (percussionniste)",
         "description": "Ce stage sera l’occasion de présenter et pratiquer les traditions musicales palestiniennes (origines, influences, évolution, lien entre musique et résistance), autour de l'apprentissage de quelques chants et pièces mélodiques simples, à l’oreille. Ouverts à tous les musiciens & musiciennes (y compris percussionnistes) à l’aise sur leur instrument et capables d’apprendre rapidement une mélodie d’oreille."
       }

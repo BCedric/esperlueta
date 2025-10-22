@@ -1,11 +1,32 @@
 import React from 'react'
 import VisibleComponent from '../../shared/VisibleComponent'
+import savedTheDateImg from '../../images/annonce-save-the-date.webp'
 
 const Presentation = () => {
   return (
     <VisibleComponent>
       <div className="elements-group">
         <VisibleComponent className="centre">
+          <p>
+            Nous vous donnons rendez-vous du 17 au 21 mars 2026 à
+            Clermont-Ferrand pour la 5e édition du festival & ESPERLUETA & !
+          </p>
+          <p>
+            Point d’orgue le samedi 21 mars avec un grand bal à la Maison du
+            Peuple !
+          </p>
+          <p>
+            Dans ce cadre, nous sommes à la recherche d’une association
+            étudiante qui souhaiterait rejoindre l’aventure inter-associative,
+            en compagnie des structures déjà co-organisatrices (Clermont Folk,
+            LieU’topie, AFPS) aux côtés des Brayauds-CDMDT63. L’occasion de
+            prendre part à une belle aventure humaine et culturelle, riche
+            d’expériences et de partages. N’hésitez pas à nous contacter
+            (contact@brayauds.fr), toutes les bonnes volontés sont les
+            bienvenues !
+          </p>
+          <img src={savedTheDateImg} />
+
           <h2 id="presentation">Présentation</h2>
           <p>
             Le printemps arrive et le festival Esperlueta s’invite pour sa

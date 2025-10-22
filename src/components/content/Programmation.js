@@ -21,7 +21,9 @@ const Programmation = () => {
                   {value.place != null && '-'} {value.place}{' '}
                   {value.time != null && '-'} {value.time}
                 </h3>
-                {value.description != null && <p className='informations'>{value.description}</p>}
+                {value.description != null && (
+                  <p className="informations">{value.description}</p>
+                )}
                 {/* {key.includes('vendredi') ? <Vendredi /> : <Samedi />} */}
 
                 {value.events != null && (
@@ -32,7 +34,13 @@ const Programmation = () => {
                           {e.time}
                           {e.place != null && ` - ${e.place}`}
                         </span>
-                        <span>{e.description}</span>
+                        {e.link != null ? (
+                          <a href={e.link} target="_blank" rel="noreferrer">
+                            {e.description}
+                          </a>
+                        ) : (
+                          <span>{e.description}</span>
+                        )}
                       </li>
                     ))}
                   </ul>

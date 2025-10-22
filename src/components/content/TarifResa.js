@@ -25,7 +25,7 @@ const TarifResa = () => {
         <h3>Réservation</h3>
         {/* <p>Les inscriptions ne sont pas encore ouvertes, revenez bientôt !</p> */}
         <p>
-          Les inscriptions sont ouvertes, n’hésitez pas à réserver votre place{' '}
+          {/* Les inscriptions sont ouvertes, n’hésitez pas à réserver votre place{' '}
           <a
             target="_blank"
             rel="noreferrer"
@@ -33,7 +33,8 @@ const TarifResa = () => {
           >
             par là
           </a>
-          <p>Réservations conseillées (places limitées).</p>
+          <p>Réservations conseillées (places limitées).</p> */}
+          Les réservations et inscriptions aux stages sont closes, une billetterie sera ouverte sur place.
         </p>
       </div>
     </VisibleComponent>
